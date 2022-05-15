@@ -11,7 +11,7 @@ def transform_data(directory):
 
     #### getting the list of files, with the directory
     file_names = np.array(os.listdir(testing_directory))
-    file_names = [testing_directory + file for file in file_names]
+    file_names = [testing_directory + '/'+ file for file in file_names]
 
     ###a list that will conatain patient numbers
     patient_list=[]
