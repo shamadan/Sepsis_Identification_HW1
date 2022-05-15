@@ -11,7 +11,7 @@ from pickle import load
 from data_transformation import transform_data
 
 
-training_directory='data/train/'
+training_directory='data/train'
 #We transform the data, explained in data_transformation.py
 training_dataframe, patient_list=transform_data(training_directory)
 training_dataframe.to_csv('mixed_dataframe_train')
