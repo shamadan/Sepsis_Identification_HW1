@@ -32,7 +32,6 @@ for indexa, yi in enumerate(yhat):
         yhat[indexa] = 1
     else:
         yhat[indexa] = 0
-print(yhat)
 
 prediction=pd.DataFrame()
 prediction['Id']=pd.Series(patient_list)
